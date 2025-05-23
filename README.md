@@ -1,7 +1,5 @@
-# cgengrdocs
-CG Engineering Docs
+# Getting Started
 
-<detail>
-<summary>This is an expandable tab</summary>
-And here are the inner details!
-</detail>
+Install dependencies (TBD)
+
+Run MkDocs with `mkdocs serve` or `python -m mkdocs serve`. 
