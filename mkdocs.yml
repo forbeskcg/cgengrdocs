@@ -1,4 +1,4 @@
-site_name: Catlin Gabel Engineering Handbook
+site_name: Catlin Gabel Engineering Compendium
 nav:
   - Home: index.md
   - About: about.md
@@ -11,20 +11,34 @@ nav:
   - Strategy: strategy/index.md
   - Misc:
     - Internships: internships.md
+
 theme: 
   name: material 
   palette: 
     scheme: slate
-
-
+  logo: img/cg_logo.svg
+  icon:
+    admonition:
+      note: fontawesome/solid/note-sticky
+      abstract: fontawesome/solid/book
+      info: material/information
+      tip: fontawesome/solid/fire
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
 
 markdown_extensions:
   - abbr
+  - md_in_html
   - toc:
       permalink: true
       toc_depth: 3
   - admonition
-  - pymdownx.blocks.details
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.keys
@@ -34,3 +48,6 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
