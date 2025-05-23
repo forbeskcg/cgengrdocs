@@ -6,11 +6,7 @@ This page contains a list of internships, camps, and similar activities througho
 
 | Title | Description | Timeframe | Contact |
 | ----- | ----------- | --------- | ------- |
-
-## ASE Internships
-
-| Title | Description | Timeframe | Contact |
-| ----- | ----------- | --------- | ------- |
+| [Saturday Academy / ASE Internship](https://www.saturdayacademy.org/ase) | The Apprenticeships in Science & Engineering (ASE) program connects motivated high school students with mentors in science, technology, engineering and math (STEM) pre-professional internships. The driving value behind the ASE program is that the interns should contribute to and learn from the mentor's work. <br><br>Internships are eight-week, full-time or part-time summer positions, designed by mentors themselves. These internships take place throughout Oregon and Southwest Washington, including Portland, Eugene, Corvallis, and Vancouver. | Summer, application due early March |  |
 
 ## Software
 
