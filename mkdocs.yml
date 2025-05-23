@@ -9,6 +9,8 @@ nav:
   - Robot Software: robotsw/index.md
   - Electronics: electronics/index.md
   - Strategy: strategy/index.md
+  - Misc:
+    - Internships: internships.md
 theme: 
   name: material 
   palette: 
