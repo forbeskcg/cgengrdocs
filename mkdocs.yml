@@ -2,15 +2,20 @@ site_name: Catlin Gabel Engineering Compendium
 nav:
   - Home: index.md
   - About: about.md
-  - Engineering: engineering/index.md
+  - Engineering: 
+    - engineering/index.md
+    - Engineering Process: engineering/engineering_process.md
+    - Development Methodologies: engineering/methodologies.md
   - Fabrication: fabrication/index.md
   - Design: design/index.md
+  - Software Engineering: software/index.md
   - Application Software: appsw/index.md
   - Robot Software: robotsw/index.md
   - Electronics: electronics/index.md
+  - Media: media/index.md
   - Strategy: strategy/index.md
   - Misc:
-    - Internships: internships.md
+    - Internships: misc/internships.md
 
 theme: 
   name: material 
@@ -31,9 +36,15 @@ theme:
       bug: fontawesome/solid/robot
       example: fontawesome/solid/flask
       quote: fontawesome/solid/quote-left
+  features:
+    - navigation.instant
+    - navigation.path
+    - navigation.indexes
+    - toc.integrate
 
 markdown_extensions:
   - abbr
+  - attr_list
   - md_in_html
   - toc:
       permalink: true
@@ -42,12 +53,15 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.keys
+  - pymdownx.blocks.caption
   - pymdownx.snippets:
       auto_append:
-        - includes/abbreviations.md
+        - includes/glossary.md
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 plugins:
   - search
