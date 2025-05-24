@@ -1,34 +1,4 @@
 site_name: Catlin Gabel Engineering Compendium
-nav:
-  - Home: index.md
-  - About: about.md
-  - Engineering: 
-    - engineering/index.md
-    - Engineering Process: engineering/engineering_process.md
-    - Development Methodologies: engineering/methodologies.md
-  - Fabrication: 
-    - fabrication/index.md
-    - Equipment:
-      - Drill Press: fabrication/equipment/drill_press.md
-      - Band Saw: fabrication/equipment/bandsaw.md
-      - Cold Saw: fabrication/equipment/cold_saw.md
-      - Manual Mill: fabrication/equipment/manual_mill.md
-      - CNC Mill: fabrication/equipment/cnc_mill.md
-      - Lathe: fabrication/equipment/lathe.md
-      - Brake: fabrication/equipment/brake.md
-      - CNC Router: fabrication/equipment/cnc_router.md
-      - Table Saw: fabrication/equipment/table_saw.md
-      - Laser Cutter: fabrication/equipment/laser_cutter.md
-      - 3D Printer: fabrication/equipment/3d_printer.md
-  - Design: design/index.md
-  - Software Engineering: software/index.md
-  - Application Software: appsw/index.md
-  - Robot Software: robotsw/index.md
-  - Electronics: electronics/index.md
-  - Media: media/index.md
-  - Strategy: strategy/index.md
-  - Misc:
-    - Internships: misc/internships.md
 
 theme: 
   name: material 
@@ -61,7 +31,6 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: true
-      toc_depth: 3
   - admonition
   - pymdownx.details
   - pymdownx.superfences
@@ -78,3 +47,34 @@ markdown_extensions:
 
 plugins:
   - search
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Engineering: 
+    - engineering/index.md
+    - Engineering Process: engineering/engineering_process.md
+    - Development Methodologies: engineering/methodologies.md
+  - Fabrication: 
+    - fabrication/index.md
+    - Equipment:
+      - Drill Press: fabrication/equipment/drill_press.md
+      - Band Saw: fabrication/equipment/bandsaw.md
+      - Cold Saw: fabrication/equipment/cold_saw.md
+      - Manual Mill: fabrication/equipment/manual_mill.md
+      - CNC Mill: fabrication/equipment/cnc_mill.md
+      - Lathe: fabrication/equipment/lathe.md
+      - Brake: fabrication/equipment/brake.md
+      - CNC Router: fabrication/equipment/cnc_router.md
+      - Table Saw: fabrication/equipment/table_saw.md
+      - Laser Cutter: fabrication/equipment/laser_cutter.md
+      - 3D Printer: fabrication/equipment/3d_printer.md
+  - Design: design/index.md
+  - Software Engineering: software/index.md
+  - Application Software: appsw/index.md
+  - Robot Software: robotsw/index.md
+  - Electronics: electronics/index.md
+  - Media: media/index.md
+  - Strategy: strategy/index.md
+  - Misc:
+    - Internships: misc/internships.md

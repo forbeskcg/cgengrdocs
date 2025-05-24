@@ -36,3 +36,11 @@ The drill press is used to bore holes in parts in a rigid and predictable manner
 | Drill bit stops spinning | Ensure the drill bit is tightened in the chuck sufficiently. |
 | Drill bit creates smoke | Ensure bit is sharp. (If it is not, throw it away). <br><br>Use cutting fluid for steel or thick (>1/8") aluminum. <br><br>Back out periodically to clear flutes. |
 | Part breaks loose / starts spinning with bit | Ensure part is tightly clamped to the table |
+
+## Machine-Specific Safety Guidelines
+
+- Part must be rigidly secured to the table.
+- The bit should be tightly fastened and concentric.
+- Remove the chuck key before powering on.
+- Keep hands away from the drill bit and part while the machine is powered.
+- Wait for all motion to cease before manipulating chuck or part.
