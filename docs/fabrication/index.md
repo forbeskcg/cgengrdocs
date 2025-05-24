@@ -25,11 +25,15 @@ This section covers many of the tools and processes within the shop.
 
 ## Equipment
 
-- [Manual Mill](manual_mill.md)
-- [CNC Mill](cnc_mill.md)
-- Cold Saw
-- Bandsaw
-- Drill Press
-- Table Saw
-- Brake
-- Lathe
+- [Drill Press](equipment/drill_press.md)
+- [Bandsaw](equipment/bandsaw.md)
+- [Cold Saw](equipment/cold_saw.md)
+- [Manual Mill](equipment/manual_mill.md)
+- [CNC Mill](equipment/cnc_mill.md)
+- [Lathe](equipment/lathe.md)
+- [Brake](equipment/brake.md)
+- [CNC Router](equipment/cnc_router.md)
+- [Table Saw](equipment/table_saw.md)
+- [Laser Cutter](equipment/laser_cutter.md)
+- [3D Printer](equipment/3d_printer.md)
+

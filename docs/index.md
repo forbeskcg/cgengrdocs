@@ -20,8 +20,8 @@ Below is the current documentation status.
 
 - [x] Site outline
 - [ ] General Engineering
-    - [ ] Engineering Process
-    - [ ] Development Methods
+    - [x] Engineering Process
+    - [x] Development Methods
     - [ ] Project Management
     - [ ] Common Tools
         - [ ] Primer on spreadsheets
@@ -49,7 +49,6 @@ Below is the current documentation status.
 - [ ] Fabrication
     - [ ] Tool overview and usage pages
     - [ ] Tutorials
-        - [ ] 
     - [ ] Metrology
     - [ ] CAM
     - [ ] Theory (materials, additive/subtractive, construction methods, etc)
