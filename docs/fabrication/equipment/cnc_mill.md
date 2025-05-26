@@ -16,7 +16,7 @@ While many CAM packages are available, we use Fusion360.
 
 ### Fusion360 Setup
 
-Follow the guide [here](fusion360.md) to get set up with Fusion.
+Follow the guide [here](../fusion360.md) to get set up with Fusion.
 
 ### Library Configuration
 

@@ -2,8 +2,21 @@ site_name: Catlin Gabel Engineering Compendium
 
 theme: 
   name: material 
-  palette: 
-    scheme: slate
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+    # - primary: deep orange
+    # - accent: purple
   logo: img/cg_logo.svg
   icon:
     admonition:
@@ -22,6 +35,7 @@ theme:
   features:
     - navigation.instant
     - navigation.path
+    - navigation.prune
     - navigation.indexes
     - toc.integrate
 
@@ -33,8 +47,16 @@ markdown_extensions:
       permalink: true
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.caret
   - pymdownx.blocks.caption
   - pymdownx.snippets:
       auto_append:
