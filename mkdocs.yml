@@ -1,7 +1,8 @@
-site_name: Catlin Gabel Engineering Compendium
+site_name: Catlin Gabel Engineering Docs
 
 theme: 
   name: material 
+  custom_dir: overrides
   palette:
     # Palette toggle for light mode
     - scheme: default
@@ -33,18 +34,17 @@ theme:
       example: fontawesome/solid/flask
       quote: fontawesome/solid/quote-left
   features:
-    - navigation.instant
-    - navigation.path
     - navigation.prune
     - navigation.indexes
-    - toc.integrate
+    # - toc.integrate
     - content.action.edit
     - content.action.view
     - content.code.copy
+    # - announce.dismiss
 
 repo_url: https://github.com/forbeskcg/cgengrdocs
 repo_name: forbeskcg/cgengrdocs
-edit_uri: edit/main/docs/
+edit_uri: edit/main/docs/ 
 
 markdown_extensions:
   - abbr
@@ -65,6 +65,7 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.blocks.caption
+  - footnotes
   - pymdownx.snippets:
       auto_append:
         - includes/glossary.md
@@ -76,6 +77,10 @@ markdown_extensions:
 
 plugins:
   - search
+  - git-revision-date-localized:
+      enable_creation_date: false
+      type: date
+      enabled: false
 
 nav:
   - Home: index.md
