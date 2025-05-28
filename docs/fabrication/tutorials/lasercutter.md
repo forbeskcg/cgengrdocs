@@ -9,16 +9,19 @@ Lasercutters are planer gantry machines that use a high power laser to burn thro
 In this tutorial, we will:
 
 - Learn the process to setup and clean up the [Omtech 100 Watt laser cutter](../equipment/laser_cutter.md) in the Outback.
-- Create `something` using `some tools`.
+- Create a nametag you can wear around town.
 - Do all of the above without burning down the building :fire: or suffocating on toxic fumes :material-smoke:.
 
 ## Procedure
 
 ### Machine Setup
 
-Find the material you want. In this case, we will use 1/4" Baltic Birch plywood.
-
-Set table height.
+- **Find the material you want.** For this particular project, we will use 1/4" thick Baltic Birch. This high-quality wood has few voids and knots, and the consistent density helps when applying a constant power to cut through the material.
+- **Power on the machine.** Make sure the laser cutter is powered on. The front panel allows you to move the head around as well as run files from a USB drive, but we won't use any features for this tutorial.
+!!! note
+    The laser cutter ventilation fan and water chiller are both powered in tandem with the cutter. If you notice the machine is on but either of these critical components is off, get help and **do not proceed**!
+- **Set table height.** The laser is focused to a specific point below the head. We use a 3d printed stick to align the top of middle ridge of the laser head with the top of the material, as shown. If the target is too close or too far away, the laser power is focused on a larger area and is usually unable to cut cleanly, if at all, through the material. <br/><br/> The height is adjusted manually with the knob on the front right of the bed.
+![Laser focus tool](laser_focus_tool.jpg){ width="45%" } ![Laser focus tool](laser_height_adjustment.jpg){ width="45%" }
 
 ### Design Transfer
 
@@ -26,7 +29,9 @@ Export design and import into lightburn
 
 ### Software Setup
 
-Install Lightburn.
+![Lightburn logo](lightburn-logo.avif){ width="100px" align="right" }
+
+1. Install [Lightburn](https://lightburnsoftware.com/).
 
 Get file into Lightburn.
 
