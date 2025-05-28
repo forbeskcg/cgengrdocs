@@ -22,12 +22,11 @@ A related design method for software is the V model, where various stages of dev
 V development model.
 ///
 
-Further reading: 
+Further reading:
 
 - <https://en.wikipedia.org/wiki/Waterfall_model>
 - <https://www.umsl.edu/~hugheyd/is6840/waterfall.html>
 - <https://en.wikipedia.org/wiki/V-Model_(software_development)>
-
 
 ## Spiral
 
@@ -47,7 +46,7 @@ Further reading:
 
 ## Agile
 
-The agile method was primarily developed for software, though it can be adapted to any engineering discipline. Agile focuses on customer interaction, which requires getting working prototypes in place early in the process. Typically, the project is broken down such that a working prototype can be developed within a fixed unit of time called a “sprint” (commonly 2 weeks but can be any length). 
+The agile method was primarily developed for software, though it can be adapted to any engineering discipline. Agile focuses on customer interaction, which requires getting working prototypes in place early in the process. Typically, the project is broken down such that a working prototype can be developed within a fixed unit of time called a “sprint” (commonly 2 weeks but can be any length).
 
 Customer feedback is included in the sprint, creating a process that more easily guarantees the project remains on track to deliver the correct solution. This solves a common issue in other methodologies where the customer may not be in a position to evaluate the fitness of the solution until significant effort has been expended.
 
@@ -71,4 +70,3 @@ In FRC, product teams during the build season could be “drivetrain”, “endg
 Further reading:
 
 - <https://medium.com/neemz-product/collaborating-effectively-in-cross-functional-product-team-settings-5e08ee6057b8>
-

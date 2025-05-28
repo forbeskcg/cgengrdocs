@@ -36,4 +36,3 @@ This section covers many of the tools and processes within the shop.
 - [Table Saw](equipment/table_saw.md)
 - [Laser Cutter](equipment/laser_cutter.md)
 - [3D Printer](equipment/3d_printer.md)
-

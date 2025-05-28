@@ -9,8 +9,8 @@ Lasercutters are planer gantry machines that use a high power laser to burn thro
 In this tutorial, we will:
 
 - Learn the process to setup and clean up the [Omtech 100 Watt laser cutter](../equipment/laser_cutter.md) in the Outback.
-- Create `something` using `some tools`. 
-- Do all of the above without burning down the building :fire: or suffocating on toxic fumes :material-smoke:. 
+- Create `something` using `some tools`.
+- Do all of the above without burning down the building :fire: or suffocating on toxic fumes :material-smoke:.
 
 ## Procedure
 
@@ -36,10 +36,10 @@ Connect USB cable.
 
 ### Verify Cut
 
-Run a preview cut to make sure the laser does not leave the material border. 
+Run a preview cut to make sure the laser does not leave the material border.
 
 !!! note
-    The small red laser dot is a nominal marker and does **NOT** correspond precisely with the actual invisible IR laser. The *real* laser is perfectly aligned with the lens on the gantry, and may be slightly forward or behind the red dot. 
+    The small red laser dot is a nominal marker and does **NOT** correspond precisely with the actual invisible IR laser. The *real* laser is perfectly aligned with the lens on the gantry, and may be slightly forward or behind the red dot.
 
 ### Go
 

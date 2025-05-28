@@ -18,7 +18,7 @@ The drill press is used to bore holes in parts in a rigid and predictable manner
 ## Usage
 
 6. Press the green power button to start the drill press.
-7. Lower the drill slowly into the part and apply moderate pressure. 
+7. Lower the drill slowly into the part and apply moderate pressure.
     - When drilling through thick material (1/4" or more), periodically retract to clear chips from drill bit flutes.
     - Use cutting fluid when drilling through steel or thick aluminum.
 8. If needed, adjust the spindle speed. Some machines must be off to change the gearing (inside the top compartment), others should *only when the drill press is on!*
