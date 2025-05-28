@@ -40,7 +40,7 @@ theme:
     - content.action.edit
     - content.action.view
     - content.code.copy
-    # - announce.dismiss
+    - announce.dismiss
 
 repo_url: https://github.com/forbeskcg/cgengrdocs
 repo_name: forbeskcg/cgengrdocs
