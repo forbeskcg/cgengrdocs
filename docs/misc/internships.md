@@ -12,7 +12,7 @@ This page contains a list of internships, camps, and similar activities througho
 
 | Title | Description | Timeframe | Contact |
 | ----- | ----------- | --------- | ------- |
-| [Autodesk Synthesis](https://synthesis.autodesk.com/) | Work with a team of current and former FIRST students to develop Synthesis, the next cutting-edge simulation package for FRC. Work can continue through the school year. | Summer, application in spring | [Pam Kilpatrick](mailto:pam.kilpatrick@autodesk.com) |
+| [Autodesk Synthesis](https://synthesis.autodesk.com/) | Work with a team of current and former FIRST students to develop Synthesis, the next cutting-edge simulation package for FRC. Work can continue through the school year. | Summer, application in spring | [frc@autodesk.com](mailto:frc@autodesk.com) |
 | [NW Cyber Camp](https://nwcybercamp.org/) | NW Cyber Camp provides high school students with a comprehensive introduction to the rapidly growing field of cybersecurity. With hands-on learning experiences, industry guest speakers, and expert instructors, NW Cyber Camp is a valuable career exploration and skill building activity for participants. | July, can apply late | [nwcybercamp@pdx.edu](mailto:nwcybercamp@pdx.edu) |
 
 ## Mechanical / Aerospace
