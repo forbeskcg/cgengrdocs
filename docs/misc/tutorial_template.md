@@ -9,7 +9,6 @@ Include an admonition at the top to the *previous* tutorial, if one exists, and 
     - [Part 2](#): (this page) Create g-code for the router using Fusion
     - [Part 3](#): Transfer and run the file on the router
 
-
 Tutorials should contain a few key elements:
 
 - **Clear goal and learning objectives.** The learning objectives are two-fold: to teach a very specific skill, and to reinforce overall program goals.
