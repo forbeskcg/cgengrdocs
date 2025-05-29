@@ -9,9 +9,9 @@ A CNC mill is a precise, automated machine used to cut, drill, and shape (mill) 
 !!! note
     This page is meant as a quick reference for those already trained on our Tormach PCNC 1100 Series 3. If this is your first time, work through a tutorial with the guidance of someone who is trained.
 
-    - (todo) [Tormach Simple Plate Aluminum Tutorial]()
-    - (todo) [Tormach Advanced Plate Aluminum Tutorial]()
-    - (todo) [Tormach 3D Contour Tutorial]()
+    - (todo) [Tormach Simple Plate Aluminum Tutorial](../tutorials/tormach_simple_plate_tutorial.md)
+    - (todo) [Tormach Advanced Plate Aluminum Tutorial](../tutorials/tormach_advanced_plate_tutorial.md)
+    - (todo) [Tormach 3D Contour Tutorial](../tutorials/tormach_3d_tutorial.md)
 
 ## Setup
 
