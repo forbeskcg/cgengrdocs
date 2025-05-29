@@ -1,10 +1,6 @@
 # About
 
-This site is a collection of guided learning units for Catlin Gabel's engineering
-and robotics program. 
-
 Press ++ctrl+alt+k++ to enable something.
-Is that HTML, or are you just happy to see me?
 
 ## This is a header
 
@@ -28,5 +24,3 @@ asdfasdf
 
 ??? abstract "Unit 1.1: Ohm's Law"
     This is where we explain Ohm's Law.
-
-

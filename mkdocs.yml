@@ -106,7 +106,7 @@ nav:
       - Table Saw: fabrication/equipment/table_saw.md
       - Laser Cutter: fabrication/equipment/laser_cutter.md
       - 3D Printer: fabrication/equipment/3d_printer.md
-  - Design: design/index.md
+  - Mechanical Design: design/index.md
   - Software Engineering: software/index.md
   - Application Software: appsw/index.md
   - Robot Software: robotsw/index.md
