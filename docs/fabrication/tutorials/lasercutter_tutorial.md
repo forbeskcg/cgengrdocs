@@ -21,7 +21,7 @@ In this tutorial, we will:
 !!! note
     The laser cutter ventilation fan and water chiller are both powered in tandem with the cutter. If you notice the machine is on but either of these critical components is off, get help and **do not proceed**!
 - **Set table height.** The laser is focused to a specific point below the head. We use a 3d printed stick to align the top of middle ridge of the laser head with the top of the material, as shown. If the target is too close or too far away, the laser power is focused on a larger area and is usually unable to cut cleanly, if at all, through the material. <br/><br/> The height is adjusted manually with the knob on the front right of the bed.
-![Laser focus tool](laser_focus_tool.jpg){ width="45%" } ![Laser focus tool](laser_height_adjustment.jpg){ width="45%" }
+![Laser focus tool](assets/laser_focus_tool.jpg){ width="45%" } ![Laser focus tool](assets/laser_height_adjustment.jpg){ width="45%" }
 
 ### Design Transfer
 
@@ -29,7 +29,7 @@ Export design and import into lightburn
 
 ### Software Setup
 
-![Lightburn logo](lightburn-logo.avif){ width="100px" align="right" }
+![Lightburn logo](assets/lightburn-logo.avif){ width="100px" align="right" }
 
 1. Install [Lightburn](https://lightburnsoftware.com/).
 

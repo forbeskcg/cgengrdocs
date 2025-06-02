@@ -81,6 +81,13 @@ plugins:
       enable_creation_date: false
       type: date
       enabled: false
+  - mkdocs-video:
+      is_video: True
+      video_muted: True
+      video_controls: True
+      video_loop: False
+      css_style:
+        width: 100%
 
 nav:
   - Home: index.md

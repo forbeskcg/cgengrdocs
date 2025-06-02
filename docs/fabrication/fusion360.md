@@ -43,7 +43,7 @@ You're now ready to prepare a file for a CNC machine, like the ShopBot router or
 
 <div class="grid cards" markdown>
 
-- (todo) [Router Plate Tutorial](tutorials/shopbot_plate_tutorial.md)
+- (todo) [Router Plate Tutorial](tutorials/shopbot_plate_tutorial_part1.md)
 - (todo) [Tormach Simple Plate Aluminum Tutorial](tutorials/tormach_simple_plate_tutorial.md)
 - (todo) [Tormach Advanced Plate Aluminum Tutorial](tutorials/tormach_advanced_plate_tutorial.md)
 - (todo) [Tormach 3D Contour Tutorial](tutorials/tormach_3d_tutorial.md)

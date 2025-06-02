@@ -12,5 +12,6 @@ When adding items to the glossary below, include them in docs/misc/glossary.md a
 *[FIRST]: For Inspiration and Recognition of Science and Technology
 *[FRC]: FIRST Robotics Competition
 *[HTML]: HyperText Markup Language
+*[NURBS]: Non-Uniform Rational B-Splines
 *[MOI]: Moment of Inertia
 *[PDR]: Preliminary Design Review

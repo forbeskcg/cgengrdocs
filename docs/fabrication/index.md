@@ -11,7 +11,10 @@ This section covers many of the tools and processes within the shop.
 - Fabrication C1 Certification
 - Metrology (Measurement)
 - [Lasercutter Tutorial](tutorials/lasercutter_tutorial.md)
-- Router Tutorial
+- CNC Router
+  - File Setup
+  - Machining
+- CNC Mill
 - Lathe: Turning and Facing
 - Lathe: Boring
 - Sheet Metal
