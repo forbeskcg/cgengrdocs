@@ -16,19 +16,11 @@ Below is a loose outline of all the desired content.
 
 - [x] Site outline
 - [ ] [General Engineering](docs/engineering/readme.md)
-- [ ] Safety
-  - [ ] Machine safety
-  - [ ] Robot safety
-  - [ ] Chemicals and SDSs
+- [ ] [Safety](docs/safety/readme.md)
 - [ ] Software
   - [ ] [Software Engineering](docs/software/readme.md)
   - [ ] [Robot/Embedded Software](docs/robotsw/readme.md)
-  - [ ] Application Software
-    - [ ] UX and UI (elements, wireframing)
-    - [ ] Web Applications (html/css/js)
-    - [ ] Frameworks (Svelte)
-    - [ ] Mobile Apps (Android, iOS, cross platform)
-    - [ ] Desktop Apps
+  - [ ] [Application Software](docs/appsw/readme.md)
 - [ ] [Fabrication](docs/fabrication/readme.md)
 - [ ] [Mechanical Design](docs/design/readme.md)
 - [ ] [Electronics](docs/electronics/readme.md)
