@@ -15,7 +15,7 @@ In this tutorial, we will:
 ### Install Lightburn
 
 ![Lightburn logo](assets/lightburn-logo.avif){ width="120px" align="right" }
-Lightburn is a design and control software used to operate laser cutters. It allows users to import vector and image files, adjust settings like power and speed, and organize cut and engrave layers. Lightburn is widely used in engineering and fabrication labs due to its precision, compatibility with many machines, and intuitive interface for both beginners and advanced users. 
+Lightburn is a design and control software used to operate laser cutters. It allows users to import vector and image files, adjust settings like power and speed, and organize cut and engrave layers. Lightburn is widely used in engineering and fabrication labs due to its precision, compatibility with many machines, and intuitive interface for both beginners and advanced users.
 
 1. To get started with laser cutting, you'll need to install [Lightburn](https://lightburnsoftware.com/), the software we’ll use to prepare and send your design files to the laser cutter.  
 
@@ -113,7 +113,7 @@ We recommend starting from this [example project](https://cad.onshape.com/docume
 
 ### Start Cut
 
-Once you have followed all of the instructions, you are ready to go! Hit go, sit back, and relax while the laser cutter does all the hard work!
+Once you have followed all of the instructions, you are ready to go! Press "Start", sit back, and relax while the laser cutter does all the hard work!
 
 !!! warning "Never leave the machine unattended!"
     The laser cutter is one of several automated machines that **CAN** malfunction. When some machines malfunction, they just break the part or tool and no harm is done, egos aside. The laser cutter, however, has the potential to catch fire :fire:. There is a dedicated fire extinguisher by the machine. Always be aware of its location before starting a cut, and be prepared to use it. :fire_extinguisher:
