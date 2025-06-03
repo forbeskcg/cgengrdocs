@@ -56,6 +56,7 @@ We recommend starting from this [example project](https://cad.onshape.com/docume
     - Use one color for **internal features** (like holes or text).
     - Use a different color for **the outer shape**.
 
+    If the inner layer is not at the top of the layer stack, drag it to the top to ensure it is cut first.
     !!! note "Why cut inner features first?"
         If the outer cut is done first, the material may shift or fall, ruining the accuracy of your internal cuts or engravings.
 
