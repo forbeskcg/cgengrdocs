@@ -14,6 +14,8 @@ In this tutorial, we will:
 
 ## Procedure
 
+- be cool!
+
 ### Machine Setup
 
 - **Find the material you want.** For this particular project, we will use 1/4" thick Baltic Birch. This high-quality wood has few voids and knots, and the consistent density helps when applying a constant power to cut through the material.
