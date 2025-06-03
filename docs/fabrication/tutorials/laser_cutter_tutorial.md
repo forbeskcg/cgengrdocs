@@ -1,7 +1,5 @@
 # Laser Cutter Tutorial
 
-Current Status: `Outlined`
-
 ## Objective
 
 Laser Cutters are planar gantry machines that use a high power laser to burn through material. Most modern machines are CNC and use software to translate a 2D design into instructions to automatically move a head along an XY gantry.
@@ -66,11 +64,14 @@ We recommend starting from this [example project](https://cad.onshape.com/docume
 2. Assign Speed, Power, and Mode for Each Layer
 
     Once your layers are color-coded:
+
     - Select each layer from the **Cuts/Layers** window.
     - Set the **speed** (how fast the laser moves) and **power** (how intense the laser is).
 
     Example settings for 1/4" Baltic Birch:
-    - 0.2 in/s @ 40% power
+
+    - 0.2 in/s  
+    - 40% power
 
     !!! note
         The correct settings depend on your material. Refer to the [speed and power table](/fabrication/equipment/laser_cutter/#speed-and-power) for tested values.
