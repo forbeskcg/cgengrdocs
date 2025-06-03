@@ -12,6 +12,14 @@ The laser cutter is used to burn through sheet material using a high-power, long
 
 1. todo
 
+## Speed and Power
+
+| Material | Speed | Power | Notes |
+| ----- | ------ | ----- | ------ |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+
 ## Cleanup
 
 1. todo
