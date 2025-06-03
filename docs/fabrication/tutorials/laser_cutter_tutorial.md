@@ -98,7 +98,7 @@ We recommend starting from this [example project](https://cad.onshape.com/docume
 
     !!! note "Framing options"
         - The **default frame** tool (left icon) draws a simple rectangular outline around your entire job.
-        - The **contour frame** tool (right icon) follows the actual shape of your design, offering a more precise preview — especially useful for irregular or curved cuts.  
+        - The **contour frame** tool (right icon) follows the actual shape of your design, offering a more precise preview—especially useful for irregular or curved cuts.  
         <br>![Laser cutter frame](assets/laser_cutter_frame.png)
     !!! warning
         The small red laser dot is a nominal marker and does **NOT** correspond precisely with the actual invisible IR laser. The *real* laser is perfectly aligned with the lens on the gantry, and may be slightly forward or behind the red dot.
