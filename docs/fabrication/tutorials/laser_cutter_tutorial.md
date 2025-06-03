@@ -1,4 +1,4 @@
-# Laser cutter Tutorial
+# Laser Cutter Tutorial
 
 Current Status: `Outlined`
 
@@ -14,6 +14,52 @@ In this tutorial, we will:
 
 ## Procedure
 
+### Install Lightburn
+
+![Lightburn logo](assets/lightburn-logo.avif){ width="120px" align="right" }
+Lightburn is a design and control software used to operate laser cutters. It allows users to import vector and image files, adjust settings like power and speed, and organize cut and engrave layers. Lightburn is widely used in engineering and fabrication labs due to its precision, compatibility with many machines, and intuitive interface for both beginners and advanced users. 
+
+1. To get started with laser cutting, you'll need to install [Lightburn](https://lightburnsoftware.com/), the software we’ll use to prepare and send your design files to the laser cutter.  
+
+2. Once installed, you can begin a **free trial** of Lightburn.
+
+!!! note
+    Lightburn allows multiple trial extensions, often lasting you several months. If you ever run out, Kevin has extra keys available.
+
+### Design your Name Tag
+
+Design your name tag in Onshape.
+
+We recommend starting from this [example project](https://cad.onshape.com/documents/03d6037b25f260e68733c332/w/bec18e5b73356748df04d15f/e/f3d44ad77acdb351dc18acb9). You can copy it and make modifications—change the shape, add your name, or include a small graphic.
+
+### Transfer Design
+
+1. Export your DXF file from Onshape
+    - Select the **face** of your name tag  
+    - Right-click and choose **Export as DXF/DWG...**
+    !!! warning "Not letting you export?"
+        Ensure you have a face selected while exporting.
+
+    ![type:video](assets/laser_cutter_export_design.webm)
+
+2. Import DXF into Lightburn
+
+    !!! note
+        If your design is unreasonably small, it is likely that your units are set to millimeters. You can multiply either the width/height by 25.4 to scale to inches.
+
+    ![type:video](assets/laser_cutter_lightburn_import.webm)
+
+### Configuring Lightburn
+
+1. Assign differing colors for inner and outer lines.
+    !!! note "Why this is important"
+        If the outer gets cut before all of the inner, it is possible for the material to shift, misaligning critical features.
+    ![type:video](assets/laser_cutter_inner_outer.webm)
+
+2. Set each colors speeds and power. Refer to the 
+
+ ![type:video](assets/laser_cutter_speed_power.webm)
+
 ### Machine Setup
 
 - **Find the material you want.** For this particular project, we will use 1/4" thick Baltic Birch. This high-quality wood has few voids and knots, and the consistent density helps when applying a constant power to cut through the material.
@@ -23,23 +69,9 @@ In this tutorial, we will:
 - **Set table height.** The laser is focused to a specific point below the head. We use a 3d printed stick to align the top of middle ridge of the laser head with the top of the material, as shown. If the target is too close or too far away, the laser power is focused on a larger area and is usually unable to cut cleanly, if at all, through the material. <br/><br/> The height is adjusted manually with the knob on the front right of the bed.
 ![Laser focus tool](assets/laser_focus_tool.jpg){ width="45%" } ![Laser focus tool](assets/laser_height_adjustment.jpg){ width="45%" }
 
-### Design Transfer
-
-Export design and import into Lightburn
-
-### Software Setup
-
-![Lightburn logo](assets/lightburn-logo.avif){ width="100px" align="right" }
-
-1. Install [Lightburn](https://lightburnsoftware.com/).
-
-Get file into Lightburn.
-
 ### Connect to Machine
 
 Connect USB cable.
-
-Now remove it! 
 
 ### Verify Cut
 
