@@ -4,11 +4,11 @@ Current Status: `Outlined`
 
 ## Objective
 
-Lasercutters are planer gantry machines that use a high power laser to burn through material. Most modern machines are CNC and use software to translate a 2D design into instructions to automatically move a head along an XY gantry.
+Laser Cutters are planar gantry machines that use a high power laser to burn through material. Most modern machines are CNC and use software to translate a 2D design into instructions to automatically move a head along an XY gantry.
 
 In this tutorial, we will:
 
-- Learn the process to setup and clean up the [Omtech 100 Watt laser cutter](../equipment/laser_cutter.md) in the Outback.
+- Learn the process to set up and clean up the [Omtech 100 Watt laser cutter](../equipment/laser_cutter.md) in the Outback.
 - Create a nametag you can wear around town.
 - Do all of the above without burning down the building :fire: or suffocating on toxic fumes :material-smoke:.
 
@@ -26,7 +26,7 @@ Lightburn is a design and control software used to operate laser cutters. It all
 !!! note
     Lightburn allows multiple trial extensions, often lasting you several months. If you ever run out, Kevin has extra keys available.
 
-### Design your Name Tag
+### Design Your Name Tag
 
 Design your name tag in Onshape.
 
@@ -45,24 +45,43 @@ We recommend starting from this [example project](https://cad.onshape.com/docume
 2. Import DXF into Lightburn
 
     !!! note
-        If your design is unreasonably small, it is likely that your units are set to millimeters. You can multiply either the width/height by 25.4 to scale to inches.
+        If your design appears very small, your units are likely set to millimeters. Multiply the width/height by 25.4 to scale to inches.
 
     ![type:video](assets/laser_cutter_lightburn_import.webm)
 
 ### Configuring Lightburn
 
-1. Assign differing colors for inner and outer lines.
-    !!! note "Why this is important"
-        If the outer gets cut before all of the inner, it is possible for the material to shift, misaligning critical features.
+1. Separate Inner and Outer Cuts with Colors
+
+    Each color in Lightburn represents a separate layer with its own speed, power, and mode (cut, engrave, etc.). By default, Lightburn will assign all lines as the same color, so be sure to change it before proceeding.
+
+    - Use one color for **internal features** (like holes or text).
+    - Use a different color for **the outer shape**.
+
+    !!! note "Why cut inner features first?"
+        If the outer cut is done first, the material may shift or fall, ruining the accuracy of your internal cuts or engravings.
+
     ![type:video](assets/laser_cutter_inner_outer.webm)
 
-2. Set each colors speeds and power. Refer to the 
+2. Assign Speed, Power, and Mode for Each Layer
 
- ![type:video](assets/laser_cutter_speed_power.webm)
+    Once your layers are color-coded:
+    - Select each layer from the **Cuts/Layers** window.
+    - Set the **speed** (how fast the laser moves) and **power** (how intense the laser is).
+
+    Example settings for 1/4" Baltic Birch:
+    - 0.2 in/s @ 40% power
+
+    !!! note
+        The correct settings depend on your material. Refer to the [speed and power table](/fabrication/equipment/laser_cutter/#speed-and-power) for tested values.
+
+    ![type:video](assets/laser_cutter_speed_power.webm)
 
 ### Machine Setup
 
 - **Find the material you want.** For this particular project, we will use 1/4" thick Baltic Birch. This high-quality wood has few voids and knots, and the consistent density helps when applying a constant power to cut through the material.
+!!! warning
+    Not all materials are able to be cut on the laser cutter, as they can be dangerous. Be sure to refer to the [allowable materials](../equipment/laser_cutter_materials.md) list if you are unsure.
 - **Power on the machine.** Make sure the laser cutter is powered on. The front panel allows you to move the head around as well as run files from a USB drive, but we won't use any features for this tutorial.
 !!! note
     The laser cutter ventilation fan and water chiller are both powered in tandem with the cutter. If you notice the machine is on but either of these critical components is off, get help and **do not proceed**!
@@ -71,27 +90,45 @@ We recommend starting from this [example project](https://cad.onshape.com/docume
 
 ### Connect to Machine
 
-Connect USB cable.
+1. Connect USB cable
+    Plug the USB cable from the laser cutter into your computer. If your laptop lacks a standard USB port, adapters are available.
 
-### Verify Cut
+2. Frame your design on the material
 
-Run a preview cut to make sure the laser does not leave the material border.
+    !!! note "Framing options"
+        - The **default frame** tool (left icon) draws a simple rectangular outline around your entire job.
+        - The **contour frame** tool (right icon) follows the actual shape of your design, offering a more precise preview — especially useful for irregular or curved cuts.  
+        <br>![Laser cutter frame](assets/laser_cutter_frame.png)
+    !!! warning
+        The small red laser dot is a nominal marker and does **NOT** correspond precisely with the actual invisible IR laser. The *real* laser is perfectly aligned with the lens on the gantry, and may be slightly forward or behind the red dot.
 
-!!! note
-    The small red laser dot is a nominal marker and does **NOT** correspond precisely with the actual invisible IR laser. The *real* laser is perfectly aligned with the lens on the gantry, and may be slightly forward or behind the red dot.
+3. Adjust placement as needed
+    If your design is not aligned correctly on the material:
+    - Move the material on the bed, **or**
+    - Reposition the design within Lightburn  
 
-### Go
+    Then re-run the frame process until everything lines up as expected.
 
-Hit go, sit back, and relax while the laser cutter does all the hard work!
+### Start Cut
+
+Once you have followed all of the instructions, you are ready to go! Hit go, sit back, and relax while the laser cutter does all the hard work!
 
 !!! warning "Never leave the machine unattended!"
     The laser cutter is one of several automated machines that **CAN** malfunction. When some machines malfunction, they just break the part or tool and no harm is done, egos aside. The laser cutter, however, has the potential to catch fire :fire:. There is a dedicated fire extinguisher by the machine. Always be aware of its location before starting a cut, and be prepared to use it. :fire_extinguisher:
 
 ### Cleanup
 
-Take material off the bed.
+After your cut is complete, it's important to leave the laser cutter and workspace clean and ready for the next user. Proper cleanup not only extends the life of the equipment, but also ensures safety and smooth operation for everyone.
 
-Make sure the bed is level and clear of small debris that might have fallen out.
+1. Remove your finished material
+    - Carefully take your workpiece off the bed.
+    - Be sure to collect any small pieces that may have fallen through or been left behind.
+2. Clear leftover scraps and debris
+    - Remove any small bits of wood, charred pieces, or dust.
+    - Pay special attention to the honeycomb bed — debris stuck here can interfere with future cuts or become a fire hazard.
+3. Return tools and accessories
+    - Put the focusing tool, USB cables, and any other borrowed tools back in their designated spots.
+    - If you used tape or magnets to hold down material, return them to the Annex area.
 
 ## Takeaway
 
