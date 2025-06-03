@@ -41,6 +41,8 @@ Get file into Lightburn.
 
 Connect USB cable.
 
+Now remove it! 
+
 ### Verify Cut
 
 Run a preview cut to make sure the laser does not leave the material border.
