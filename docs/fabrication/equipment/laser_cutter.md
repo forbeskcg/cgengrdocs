@@ -92,9 +92,12 @@ After your cut is complete, it's important to leave the laser cutter and Annex c
 
 | Material | Speed | Power | Notes |
 | ----- | ------ | ----- | ------ |
-| .2in MAXComposite | .23in/s | 90% | |
-| .1in MAXComposite | .29in/s | 90% |  |
-|  |  |  |  |
+| 0.2" MAXComposite | 0.23in/s | 90% | |
+| 0.1" MAXComposite | 0.29in/s | 90% |  |
+| 1/4" Baltic Birch Plywood | 0.20in/s | 40% |  |
+| 1/8" Baltic Birch Plywood | 1.30in/s | 30% |  |
+| Baltic Birch Plywood engraving, fill | 20in/s | 30% | 1 pass, unidirectional fill |
+| Baltic Birch Plywood engraving, image | 10in/s | 30% | 10% min power, 1 pass, unidirectional fill |
 
 ## Troubleshooting
 
