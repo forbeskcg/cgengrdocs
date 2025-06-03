@@ -1,6 +1,6 @@
 # Getting Started
 
-Make sure you have Python (>= 3.8) and PIP installed.
+Make sure you have Python (>= 3.10) and PIP installed.
 
 Then in a terminal within the project folder, install dependencies:
 
