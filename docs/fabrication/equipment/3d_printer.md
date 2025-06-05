@@ -20,12 +20,12 @@ This guide will be primarily focused on the Bambu Lab ecosystem, but similar pri
 
 | Filament | Strength     | Flexibility | Print Temp | Bed Temp | Adhesion                   | Notes                                                                 |
 |----------|--------------|-------------|------------|----------|----------------------------|-----------------------------------------------------------------------|
-| PLA      | Moderate     | Low         | 190–220°C  | 50–60°C  | Excellent on PEI           | Easy to print, biodegradable, low heat resistance                     |
-| PETG     | High         | Medium      | 230–250°C  | 70–85°C  | Good (best on textured PEI)| Strong, slightly flexible, can stick too well to smooth PEI          |
-| ABS      | High         | Medium      | 230–250°C  | 90–110°C | Fair (needs enclosure)     | Strong, durable, warps without enclosure                              |
-| TPU      | Medium       | Very High   | 220–240°C  | 30–60°C  | Good on textured PEI       | Flexible, elastic, needs slower speeds                                |
-| ASA      | High         | Medium      | 240–260°C  | 90–110°C | Moderate                   | UV and weather-resistant, similar to ABS                              |
-| Nylon    | Very High    | High        | 240–260°C  | 70–90°C  | Poor (use glue stick)      | Strong and durable, absorbs moisture quickly                          |
+| PLA| Moderate| Low| 190–220°C  | 50–60°C  | Excellent on PEI| Easy to print, biodegradable, low heat resistance|
+| PETG| High| Medium| 230–250°C  | 70–85°C  | Good (best on textured PEI)| Strong, slightly flexible, can stick too well to smooth PEI|
+| ABS| High| Medium| 230–250°C  | 90–110°C | Fair (needs enclosure)| Strong, durable, warps without enclosure|
+| TPU| Medium| Very High| 220–240°C| 30–60°C| Good on textured PEI| Flexible, elastic, needs slower speeds|
+| ASA| High| Medium| 240–260°C| 90–110°C | Moderate| UV and weather-resistant, similar to ABS|
+| Nylon| Very High| High| 240–260°C | 70–90°C | Poor (use glue stick) | Strong and durable, absorbs moisture quickly|
 
 ### Load Filament
 
@@ -40,15 +40,15 @@ This guide will be primarily focused on the Bambu Lab ecosystem, but similar pri
 !!! tip 
     We usually recommend using a Textured PEI Plate, but Smooth PEI Plates have their benefits.
 
-| Feature                  | Smooth PEI                                      | Textured PEI                                     |
+| Feature| Smooth PEI| Textured PEI|
 |--------------------------|--------------------------------------------------|--------------------------------------------------|
-| Bottom layer finish      | Glossy                                          | Matte/textured                                   |
-| Ideal materials          | PLA, ABS                                        | PETG, TPU, PLA                                   |
-| Adhesion strength        | Very high (can over-stick with PETG)           | Moderate to high, easier release                 |
-| Durability               | Can scratch easily                              | Highly durable                                   |
-| Cleaning requirements    | Frequent (alcohol, dish soap)                   | Less frequent, more forgiving                    |
-| Ease of part removal     | Can be difficult                                | Usually easy once cooled                         |
-| Surface consistency      | Uniform and smooth                              | Textured |
+| Bottom layer finish| Glossy| Matte/textured                                   |
+| Ideal materials| PLA, ABS| PETG, TPU, PLA                                   |
+| Adhesion strength| Very high (can over-stick with PETG)| Moderate to high, easier release|
+| Durability| Can scratch easily| Highly durable|
+| Cleaning requirements    | Frequent (alcohol, dish soap)| Less frequent, more forgiving|
+| Ease of part removal| Can be difficult| Usually easy once cooled|
+| Surface consistency| Uniform and smooth| Textured |
 
 ## Usage
 
@@ -72,7 +72,7 @@ You can use either [Bambu Studio](https://bambulab.com/en/download/studio) or [O
 
 | Issue | Action |
 | ----- | ------ |
-| Clogged Hotend | [Bambu Lab Wik](https://wiki.bambulab.com/en/x1/troubleshooting/nozzle-clog) | 
+| Clogged Hotend | [Bambu Lab Wiki](https://wiki.bambulab.com/en/x1/troubleshooting/nozzle-clog) | 
 
 ## Machine-Specific Safety Guidelines
 
