@@ -18,6 +18,7 @@ This section covers many of the tools and processes within the shop.
 - Lathe: Turning and Facing
 - Lathe: Boring
 - Sheet Metal
+- [Introduction to 3D Printing](/tutorials/intro_to_3d_printing)
 
 ## Hand Tools
 

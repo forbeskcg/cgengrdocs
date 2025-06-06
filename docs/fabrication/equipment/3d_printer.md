@@ -52,8 +52,6 @@ This guide will be primarily focused on the Bambu Lab ecosystem, but similar pri
 
 ## Usage
 
-### Slicing
-
 You can use either [Bambu Studio](https://bambulab.com/en/download/studio) or [OrcaSlicer](https://github.com/SoftFever/OrcaSlicer) to prepare print files. Both are compatible with Bambu Lab printers and support cloud and local network printing.
 
 !!! note 
