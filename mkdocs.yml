@@ -1,0 +1,124 @@
+site_name: Catlin Gabel Engineering Docs
+
+theme: 
+  name: material 
+  custom_dir: overrides
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    
+    # - primary: deep orange
+    # - accent: purple
+  logo: img/cg_logo.svg
+  icon:
+    admonition:
+      note: fontawesome/solid/note-sticky
+      abstract: fontawesome/solid/book
+      info: material/information
+      tip: fontawesome/solid/fire
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
+  features:
+    - navigation.prune
+    - navigation.indexes
+    # - toc.integrate
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
+    - announce.dismiss
+
+repo_url: https://github.com/forbeskcg/cgengrdocs
+repo_name: forbeskcg/cgengrdocs
+edit_uri: edit/main/docs/ 
+
+markdown_extensions:
+  - abbr
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.blocks.caption
+  - footnotes
+  - pymdownx.snippets:
+      auto_append:
+        - includes/glossary.md
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: false
+      type: date
+      enabled: false
+  - mkdocs-video:
+      is_video: True
+      video_muted: True
+      video_controls: True
+      video_loop: False
+      css_style:
+        width: 100%
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Engineering: 
+    - engineering/index.md
+    - Engineering Process: engineering/engineering_process.md
+    - Development Methodologies: engineering/methodologies.md
+  - Fabrication: 
+    - fabrication/index.md
+    - Equipment:
+      - Drill Press: fabrication/equipment/drill_press.md
+      - Band Saw: fabrication/equipment/bandsaw.md
+      - Cold Saw: fabrication/equipment/cold_saw.md
+      - Bench Grinder: fabrication/equipment/bench_grinder.md
+      - Abrasive Saw: fabrication/equipment/abrasive_saw.md
+      - Belt Sander: fabrication/equipment/belt_sander.md
+      - Manual Mill: fabrication/equipment/manual_mill.md
+      - CNC Mill: fabrication/equipment/cnc_mill.md
+      - Lathe: fabrication/equipment/lathe.md
+      - Brake: fabrication/equipment/brake.md
+      - CNC Router: fabrication/equipment/cnc_router.md
+      - Table Saw: fabrication/equipment/table_saw.md
+      - Laser Cutter: fabrication/equipment/laser_cutter.md
+      - 3D Printer: fabrication/equipment/3d_printer.md
+  - Mechanical Design: design/index.md
+  - Software Engineering: software/index.md
+  - Application Software: appsw/index.md
+  - Robot Software: robotsw/index.md
+  - Electronics: electronics/index.md
+  - Media: media/index.md
+  - Strategy: strategy/index.md
+  - Misc:
+    - Internships: misc/internships.md
+    - Glossary: misc/glossary.md
