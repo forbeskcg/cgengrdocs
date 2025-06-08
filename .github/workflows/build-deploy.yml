@@ -41,5 +41,4 @@ jobs:
         source: "./site/*"
         target: ${{ secrets.TARGET_DIR }}
         rm: true
-        # use_insecure_cipher: true
         strip_components: 1
