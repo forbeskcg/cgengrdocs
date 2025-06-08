@@ -1,6 +1,6 @@
 # Welcome to Engineering at Catlin Gabel
 
-This website is meant as a reference guide for many of the tools and processes within the Outback lab and shop. While instructive, this is not meant to be a comprehensive source. There are plenty of materials available online for diving deeper into any particular subject, and those are included where possible.
+This website is meant as a reference guide for many of the tools and processes within the engineering and robotics program. While instructive, this is not meant to be a comprehensive source. There are plenty of materials available online for diving deeper into any particular subject, and those are included where possible.
 
 ## Site Structure
 

@@ -1,0 +1,43 @@
+name: ci
+
+on:
+  push:
+    branches: 
+    - main
+
+jobs:
+
+  build:
+    name: Build
+    runs-on: ubuntu-22.04
+    steps:
+    - uses: actions/checkout@v4
+    - name: Build site with MkDocs
+      run: |
+        pip install -r ./requirements.txt 
+        mkdocs build
+    - uses: actions/upload-artifact@v4
+      with: 
+        name: site
+        path: ./site
+
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-22.04
+    needs: build
+    steps:
+    - uses: actions/download-artifact@v4
+      with: 
+        name: site 
+        path: site
+    - name: copy static site files via ssh
+      uses: appleboy/scp-action@v1
+      with:
+        host: team1540.catlin.edu
+        username: ${{ secrets.USERNAME }}
+        port: ${{ secrets.PORT }}
+        key: ${{ secrets.SSH_KEY }}
+        source: "./site/*"
+        target: ${{ secrets.TARGET_DIR }}
+        rm: true
+        strip_components: 1
