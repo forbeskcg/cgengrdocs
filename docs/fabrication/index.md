@@ -12,12 +12,25 @@ This section covers many of the tools and processes within the shop.
 - Metrology (Measurement)
 - [Laser Cutter Tutorial](tutorials/laser_cutter_tutorial.md)
 - CNC Router
-  - File Setup
-  - Machining
+
+    * [Part 1: File Setup](tutorials/shopbot_plate_tutorial_part1.md)
+    * [Part 2: Machining](tutorials/shopbot_plate_tutorial_part2.md)
+
 - CNC Mill
-- Lathe: Turning and Facing
+
+    * [Simple Plate Tutorial](tutorials/tormach_simple_plate_tutorial.md)
+    * [Advanced Plate Tutorial](tutorials/tormach_advanced_plate_tutorial.md)
+    * [3D Tutorial](tutorials/tormach_3d_tutorial.md)
+
+- Lathe
+
+    * [Turning and Facing](tutorials/lathe_turning_facing.md)
+    * [Boring](tutorials/lathe_boring.md)
+    * [Parting](tutorials/lathe_parting.md)
+
 - Lathe: Boring
 - Sheet Metal
+- [Introduction to 3D Printing](/tutorials/intro_to_3d_printing)
 
 ## Hand Tools
 
