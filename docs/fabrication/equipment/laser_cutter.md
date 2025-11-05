@@ -1,5 +1,7 @@
 # Laser Cutter
 
+![Laser Cutter](laser_cutter.png){ align="right" width="200px" }
+
 ## About
 
 The laser cutter is used to burn through sheet material using a high-power, long wavelength (IR) laser mounted on an XY gantry. Our laser cutter is a mid-range Omtech 100 watt unit capable of 600 mm/s travel speeds.
@@ -49,7 +51,7 @@ The laser cutter is used to burn through sheet material using a high-power, long
     - Set the **speed** (how fast the laser moves) and **power** (how intense the laser is).
 
     !!! note
-        The correct settings depend on your material. Refer to the [speed and power table](/fabrication/equipment/laser_cutter/#speed-and-power) for tested values.
+        The correct settings depend on your material. Refer to the [speed and power table](#speed-and-power) for tested values.
 
     ![type:video](../tutorials/assets/laser_cutter_speed_power.webm)
 
@@ -94,7 +96,7 @@ After your cut is complete, it's important to leave the laser cutter and Annex c
 | ----- | ------ | ----- | ------ |
 | 0.2" MAXComposite | 0.23in/s | 90% | |
 | 0.1" MAXComposite | 0.29in/s | 90% |  |
-| 1/4" Baltic Birch Plywood | 0.20in/s | 40% |  |
+| 1/4" Baltic Birch Plywood | 0.20in/s | 45% |  |
 | 1/8" Baltic Birch Plywood | 1.30in/s | 30% |  |
 | Baltic Birch Plywood engraving, fill | 20in/s | 30% | 1 pass, unidirectional fill |
 | Baltic Birch Plywood engraving, image | 10in/s | 30% | 10% min power, 1 pass, unidirectional fill |

@@ -24,13 +24,12 @@ This section covers many of the tools and processes within the shop.
 
 - Lathe
 
-    * [Turning and Facing](tutorials/lathe_turning_facing.md)
-    * [Boring](tutorials/lathe_boring.md)
-    * [Parting](tutorials/lathe_parting.md)
+    * [Turning and Facing](tutorials/lathe_turning_facing_tutorial.md)
+    * [Boring](tutorials/lathe_boring_tutorial.md)
+    * [Parting](tutorials/lathe_parting_tutorial.md)
 
-- Lathe: Boring
 - Sheet Metal
-- [Introduction to 3D Printing](/tutorials/intro_to_3d_printing)
+- [Introduction to 3D Printing](tutorials/intro_to_3d_printing.md)
 
 ## Hand Tools
 
@@ -52,3 +51,8 @@ This section covers many of the tools and processes within the shop.
 - [Table Saw](equipment/table_saw.md)
 - [Laser Cutter](equipment/laser_cutter.md)
 - [3D Printer](equipment/3d_printer.md)
+
+## Resources
+
+- [NYC CNC YouTube Channel](https://www.youtube.com/@nyccnc): no shortage of useful tips and tricks for CNC milling.
+- [Blondihacks YouTube Channel](https://www.youtube.com/watch?v=H6Dnmd3lDzA&list=PLY67-4BrEae9Ad91LPRIhcLJM9fO-HJyN): great series on lathes, along with mills and other projects

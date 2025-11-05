@@ -75,7 +75,7 @@ We recommend starting from this [example project](https://cad.onshape.com/docume
     - 40% power
 
     !!! note
-        The correct settings depend on your material. Refer to the [speed and power table](/fabrication/equipment/laser_cutter/#speed-and-power) for tested values.
+        The correct settings depend on your material. Refer to the [speed and power table](../equipment/laser_cutter.md#speed-and-power) for tested values.
 
     ![type:video](assets/laser_cutter_speed_power.webm)
 
