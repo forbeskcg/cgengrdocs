@@ -2,6 +2,16 @@
 
 This unlisted page provides examples on formatting and embedding content.
 
+## MathJax (LaTeX)
+
+Math rendering via [MathJax plugin](https://squidfunk.github.io/mkdocs-material/reference/math/):
+
+$$\frac{\pi}{4} = 1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} - ... = \sum_{k=0}^{\infty} \frac{(-1)^k}{2k+1}$$
+
+You can render inline equations using `$ ... $`, which appear within text ($e = m c^2$, for example), while larger blocks between paragraphs can be rendered with `$$ ... $$` like the [Leibniz $\pi$ series](https://en.wikipedia.org/wiki/Leibniz_formula_for_%CF%80) above.
+
+[MathJax documentation](https://docs.mathjax.org/en/latest/index.html).
+
 ## JavaScript Examples
 
 [P5js](https://editor.p5js.org) `iframe` embed:
