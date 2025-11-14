@@ -24,7 +24,7 @@ This page contains a list of internships, camps, and similar activities througho
 
 | Title | Description | Timeframe | Contact |
 | ----- | ----------- | --------- | ------- |
-| [OSHU CURE Program](https://www.ohsu.edu/knight-cancer-institute/ted-r-lilley-cure-program) | This program offers hands-on research experiences to Portland-area high school students who excel academically and come from socially or economically disadvantaged backgrounds. The goal of this program is to address the issue of health equity by increasing participation of youth from underserved populations in biomedical research and other health-related fields. | June through August, application in December | [cureinternship@ohsu.edu](mailto:cureinternship@ohsu.edu) |
+| [OSHU CURE Program](https://www.ohsu.edu/knight-cancer-institute/ted-r-lilley-cure-program) | [2026 Application](https://app.rlogx.com/training-opportunity/F031EC8D-73A6-5A0D-4834-45CFBABD) <br><br>This program offers hands-on research experiences to Portland-area high school students who excel academically and come from socially or economically disadvantaged backgrounds. The goal of this program is to address the issue of health equity by increasing participation of youth from underserved populations in biomedical research and other health-related fields. | June through August, application by Jan 8th | [cureinternship@ohsu.edu](mailto:cureinternship@ohsu.edu) |
 
 ## Electrical / Computer
 
