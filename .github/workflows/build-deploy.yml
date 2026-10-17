@@ -12,10 +12,10 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
     - uses: actions/checkout@v4
-    - name: Build site with MkDocs
+    - name: Build site with Zensical
       run: |
         pip install -r ./requirements.txt 
-        mkdocs build
+        zensical build
     - uses: actions/upload-artifact@v4
       with: 
         name: site
