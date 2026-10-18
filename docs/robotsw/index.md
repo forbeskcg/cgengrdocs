@@ -9,4 +9,5 @@
     * [OneCompiler](https://onecompiler.com/)
 * [typing.io](https://typing.io/): Typing practice using real codebases
 * [Codewars](https://www.codewars.com/): Small programming challenges to improve your skills
+* [Learn Git Branching](https://learngitbranching.js.org/?locale=en_US): An interactive tool for learning Git essentials
 

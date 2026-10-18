@@ -40,8 +40,10 @@ This section covers many of the tools and processes within the shop.
 
 ## Equipment
 
+- [Abrasive Chop Saw](equipment/abrasive_saw.md)
 - [Drill Press](equipment/drill_press.md)
 - [Bandsaw](equipment/bandsaw.md)
+- [Belt Sander](equipment/belt_sander.md)
 - [Cold Saw](equipment/cold_saw.md)
 - [Manual Mill](equipment/manual_mill.md)
 - [CNC Mill](equipment/cnc_mill.md)
