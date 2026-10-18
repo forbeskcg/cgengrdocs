@@ -2,7 +2,7 @@ site_name: Catlin Gabel Engineering Docs
 
 theme: 
   name: material 
-  variant: classic
+  variant: modern
   custom_dir: overrides
   palette:
     - scheme: slate
